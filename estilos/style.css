@@ -1,0 +1,351 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@500&display=swap');
+
+:root {
+    /* CORES DO FOOTER */
+    --color-neutral-0: #0e0c0c;
+    --color-neutral-10: #171717;
+    --color-neutral-30: #a8a29e;
+    --color-neutral-40: #f5f5f5;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+main {
+    background-color: #171717;
+}
+.navbar {
+    width: 100vw;
+}
+
+.logotipo {
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.custom-navbar {
+    background-color: #171717;
+}
+
+.custom-navbar .navbar-brand {
+    color: white;
+}
+
+.navbar-nav .nav-link  {
+    color: white;
+}
+
+/* CARROSSEL */
+.carousel-item {
+    width: 100vw;
+    height: 270px;
+}
+/* FIM CARROSSEL */
+
+/* OS NOSSOS SERVIÇOS */
+    .div-sobre-serviços h1 {
+        font-family: 'Signika Negative', sans-serif;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 25px;
+    }
+/* FIM OS NOSSOS SERVIÇOS */
+
+/* SERVIÇOS PRESTADOS */
+.div-sobre-serviços {
+    color: white;
+}
+
+.card {
+    background-color: #171717;
+}
+
+.card-title {
+    color: white;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: 26px;
+}
+
+.card-text {
+    color: white;
+}
+/* FIM SERVIÇOS PRESTADOS */
+
+/* FORMULARIO */
+.formulario {
+    width: 100%;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #171717;
+}
+
+.form-label {
+    color: white;
+}
+
+.h1form-tittle {
+    color: white;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.form-label {
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+#validationCustom01, #validationCustom02, #validationCustom03, #validationCustom04, #validationCustom05{
+    background-color: #a8a29e;
+}
+
+textarea {
+    width: 100%;
+    background-color: #a8a29e;
+    border-radius: 6px;
+    color: black;
+    margin: auto;
+    display: block;
+}
+
+.form-check-label {
+    color: white;
+}
+/* FIM FORMULARIO */
+
+/* ÁREAS DE ATUAÇÃO */
+.atuação {
+    width: 100%;
+    height: auto;
+    display: block;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+    background-color: #171717;
+}
+.div-cards {
+    width: 100vw;
+    height: 270px;
+    text-align: center;
+    margin: 7px;
+    margin-bottom: 20px;
+    margin: auto;
+}
+
+.atuação-tittle {
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 5px;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+#div-cards1 {
+    background-image: url(../imagens/img04.jpg);  
+}
+
+#div-cards2 {
+    background-image: url(../imagens/img05.jpg);
+}
+
+#div-cards3 {
+    background-image: url(../imagens/img06.jpg);
+    background-position: center center;
+}
+
+#div-cards4 {
+    background-image: url(../imagens/img07.jpg);
+}
+
+#div-cards5 {
+    background-image: url(../imagens/img08.jpg);
+    background-position: center right;
+}
+
+#div-cards6 {
+    background-image: url(../imagens/img09.jpg);
+    background-position: center ;
+}
+
+#div-cards7 {
+    background-image: url(../imagens/img10.jpg);
+}
+
+.div-card-title {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 5px;
+    color: white;
+    font-family: 'Signika Negative', sans-serif;
+}
+/* FIM ÁREAS DE ATUAÇÃO */
+
+/* LOCALIZAÇÃO */
+    .loc {
+        background-color: #171717;
+    }
+    .loc-title{
+        background-color: #171717;
+        color: white;
+        padding-bottom: 20px;
+        font-family: 'Signika Negative', sans-serif;
+        text-align: center;
+    }
+    .loc > iframe {
+        width: 100vw;
+        height: 400px;
+        margin-bottom: 30px;
+    }
+/* FIM LOCALIZAÇÃO */
+
+/* FOOTER */
+footer {
+    width: 100vw;
+    color: var(--color-neutral-40);
+    font-family: 'Inter', sans-serif;
+    
+}
+
+.footer-link {
+    text-decoration: none;
+}
+
+#footer_content {
+    background-color: var(--color-neutral-10);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 3rem 3.5rem;
+}
+
+#footer_contacts h1 {
+    margin-bottom: 0.75rem;
+}
+
+#footer_social_media {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.5rem;
+} 
+
+#footer_social_media .footer-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    color: var(--color-neutral-40);
+    border-radius: 50%;
+    transition: all 0.4s;
+}
+
+#footer_social_media .footer-link i {
+    font-size: 1.25rem;    
+}
+
+#footer_social_media .footer-link:hover {
+    opacity: 0.8;
+}
+
+.logo-cliente {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 5px;
+    
+}
+
+#instagram {
+    background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+}
+
+#facebook {
+    background-color: #4267b3;
+}
+
+#whatsapp {
+    background-color: #25d366;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    list-style: none;
+}
+
+.footer-list .footer-link {
+    color: var(--color-neutral-30);
+    transition: all 0.4s;
+}
+
+.footer-list .footer-link:hover {
+    color: #7f37c9;
+}
+
+#footer_subscribe {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+#footer_subscribe p {
+    color: var(--color-neutral-30);
+}
+
+#input_group {
+    display: flex;
+    align-items: center;
+    background-color: var(--color-neutral-0);
+    border-radius: 4px;
+}
+
+#input_group input {
+    all: unset;
+    padding: 0.75rem;
+    width: 100%;
+}
+
+#input_group button {
+    background-color: #7f37c9;
+    border: none;
+    color: var(--color-neutral-40);
+    padding: 0px 1.25rem;
+    font-size: 1.125rem;
+    height: 100%;
+    border-radius: 0px 4px 4px 0px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+#input_group button:hover {
+    opacity: 0.8;
+}
+
+#footer_copyright {
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-neutral-0);
+    font-size: 0.9rem;
+    padding: 1.5rem;
+    font-weight: 100;
+}
+
+@media screen and (max-width: 768px) {
+    #footer_content {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    #footer_content {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 3rem 2rem;
+    }
+}
+/* FIM FOOTER */
