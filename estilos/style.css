@@ -55,25 +55,12 @@ main {
         text-align: center;
         margin-top: 30px;
         margin-bottom: 25px;
+        overflow-x: hidden;
     }
 /* FIM OS NOSSOS SERVIÇOS */
 
 /* SERVIÇOS PRESTADOS */
 .div-sobre-serviços {
-    color: white;
-}
-
-.card {
-    background-color: #171717;
-}
-
-.card-title {
-    color: white;
-    font-family: 'Bricolage Grotesque', sans-serif;
-    font-size: 26px;
-}
-
-.card-text {
     color: white;
 }
 /* FIM SERVIÇOS PRESTADOS */
@@ -142,6 +129,7 @@ textarea {
     margin-bottom: 30px;
     margin-left: 5px;
     font-family: 'Signika Negative', sans-serif;
+    overflow: hidden;
 }
 
 #div-cards1 {
