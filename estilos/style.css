@@ -80,6 +80,7 @@ main {
 .h1form-tittle {
     color: white;
     font-family: 'Signika Negative', sans-serif;
+    overflow: hidden;
 }
 
 .form-label {
