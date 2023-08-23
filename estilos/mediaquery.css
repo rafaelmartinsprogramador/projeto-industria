@@ -1,5 +1,29 @@
 @charset "UTF-8";
 
+@media screen and (max-width: 639px) {
+    #div-cards1 {
+        background-size: cover;
+    }
+    #div-cards2 {
+        background-size: cover;
+    }
+    #div-cards3 {
+        background-size: cover;
+    }
+    #div-cards4 {
+        background-size: cover;
+    }
+    #div-cards5 {
+        background-size: cover;
+    }
+    #div-cards6 {
+        background-size: cover;
+    }
+    #div-cards7 {
+        background-size: cover;
+    }
+}
+
 @media screen and (min-width: 768px) {
     .carousel-item { 
         height: 350px;
