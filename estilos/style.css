@@ -85,6 +85,7 @@ main {
 
 .form-label {
     font-family: 'Bricolage Grotesque', sans-serif;
+    background-color: white;
 }
 
 #inputName, #inputLastname, #inputTel, #imsg, #textareaid {
