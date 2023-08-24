@@ -73,10 +73,6 @@ main {
     background-color: #171717;
 }
 
-.form-label {
-    color: white;
-}
-
 .h1form-tittle {
     color: white;
     font-family: 'Signika Negative', sans-serif;
@@ -85,10 +81,10 @@ main {
 
 .form-label {
     font-family: 'Bricolage Grotesque', sans-serif;
-    background-color: white;
+    color: white;
 }
 
-#inputName, #inputLastname, #inputTel, #imsg, #textareaid {
+#inputName, #inputLastname, #inputTel, #imsg {
     background-color: white;
 }
 
@@ -96,6 +92,7 @@ textarea {
     width: 100%;
     border-radius: 6px;
     color: black;
+    background-color: white;
     margin: auto;
     display: block;
 }
