@@ -91,36 +91,41 @@
             </aside>
             <!-- FORMULÁRIO -->
             <aside class="formulario">
-                <form class="row g-3 needs-validation" novalidate>
-                  <h1 class="h1form-tittle">Faça um orçamento sem compromisso!</h1>
-                    <div class="col-md-4">
-                      <label for="validationCustom01" class="form-label">Nome:</label>
-                      <input type="text" class="form-control" id="validationCustom01">
-                      </div>
+                <form action="https://formsubmit.co/geral.perfilefemero@perfilefemero.com" method="post">
+                    <h1 class="h1form-tittle">Faça um orçamento sem compromisso!</h1>
+                    <div class="row g-3">
+                        <div class="col">
+                            <label for="nome" class="form-label">Nome:</label>
+                            <input type="text" name="nome" class="form-control" placeholder="Nome" aria-label="Nome" id="inputName"
+                                style="margin-bottom: 12px;" required>
+                        </div>
+                        <div class="col">
+                            <label for="sobrenome" class="form-label">Sobrenome:</label>
+                            <input type="text" name="sobrenome" class="form-control" placeholder="Sobrenome" aria-label="Sobrenome" id="inputLastname" required>
+                        </div>
                     </div>
-                    <div class="col-md-4">
-                      <label for="validationCustom02" class="form-label">Sobrenome:</label>
-                      <input type="text" class="form-control" id="validationCustom02">
-                    </div>
-                    <div class="col-md-4">
-                        <label for="validationCustom03" class="form-label">Telefone:</label>
-                        <input type="tel" class="form-control" id="validationCustom03" required>
-                    </div>
-                    <div class="col-md-4" id="colunatext">
-                        <label for="validationCustom05" class="form-label" id="textareaid">Mensagem:</label>
-                        <textarea name="mensagem" id="imsg" placeholder="Olá, gostaria de consultar um orçamento sobre um serviço de serralheria."></textarea>
-                    </div>
-
-                    <div class="form-check" style="margin-left: 5px;">
-                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
-                        <label class="form-check-label" for="invalidCheck">
-                            Concordo com todos os termos e condições.
-                        </label>
-                      </div>
-                    </div>
-                    <div class="col-12">
-                      <button class="btn btn-primary" type="submit">ENVIAR MENSAGEM</button>
-                    </div>
+                        <div class="col-12">
+                            <label for="telefone" class="form-label">Telefone:</label>
+                            <input type="tel" name="telefone" class="form-control" id="inputTel" placeholder="Telefone" required>
+                        </div>
+                        <div class="col-md-4" id="colunatext">
+                            <label for="validationCustom05" class="form-label" id="textareaid">Mensagem:</label>
+                            <textarea name="mensagem" id="imsg" placeholder="Olá, gostaria de consultar um orçamento sobre um serviço de serralheria."></textarea>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gridCheck" required>
+                                <label class="form-check-label" for="gridCheck">
+                                    Aceito com todos os termos e condições.
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                        </div>
+    
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_next" value="https://perfilefemero.com/">
                 </form>
             </aside>
             <!-- FIM FORMULÁRIO -->

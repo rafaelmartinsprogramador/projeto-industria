@@ -87,21 +87,16 @@ main {
     font-family: 'Bricolage Grotesque', sans-serif;
 }
 
-#validationCustom01, #validationCustom02, #validationCustom03, #validationCustom04, #validationCustom05{
-    background-color: #a8a29e;
+#inputName, #inputLastname, #inputTel, #imsg, #textareaid {
+    background-color: white;
 }
 
 textarea {
     width: 100%;
-    background-color: #a8a29e;
     border-radius: 6px;
     color: black;
     margin: auto;
     display: block;
-}
-
-.form-check-label {
-    color: white;
 }
 /* FIM FORMULARIO */
 
