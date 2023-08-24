@@ -84,7 +84,7 @@ main {
     color: white;
 }
 
-#inputName, #inputLastname, #inputTel, #imsg {
+#inputName, #inputLastname, #inputTel, #textarea-id {
     background-color: white;
 }
 
