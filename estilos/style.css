@@ -86,14 +86,24 @@ main {
 
 #inputName, #inputLastname, #inputTel {
     background-color: white;
+    border: none;
+}
+
+#inputTel {
+    width: 100%;
+    border: none;
+    border-radius: 7px;
+    padding: 8px;
 }
 
 textarea {
     width: 100%;
-    border-radius: 6px;
+    border: none;
+    border-radius: 7px;
+    padding: 7px;
     color: black;
-    margin: auto;
     display: block;
+    white-space: nowrap;
 }
 /* FIM FORMULARIO */
 
