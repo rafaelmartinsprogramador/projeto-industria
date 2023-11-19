@@ -17,8 +17,14 @@
     overflow-x: hidden;
 }
 
+body {
+    background-color: #171717;
+}
+
 main {
     background-color: #171717;
+    max-width: 1140px;
+    margin: auto;
 }
 .navbar {
     width: 100vw;
@@ -136,34 +142,52 @@ textarea {
 }
 
 #div-cards1 {
-    background-image: url(../imagens/img04.jpg);  
+    background-image: url(../imagens/img04.jpg);
+    height: 600px;
+    background-position: center;
+    background-size: cover;
 }
 
 #div-cards2 {
     background-image: url(../imagens/img05.jpg);
+    height: 600px;
+    background-position: center;
+    background-size: cover;
 }
 
 #div-cards3 {
     background-image: url(../imagens/img06.jpg);
-    background-position: center center;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
 }
 
 #div-cards4 {
     background-image: url(../imagens/img07.jpg);
+    height: 600px;
+    background-position: center;
+    background-size: cover;
 }
 
 #div-cards5 {
     background-image: url(../imagens/img08.jpg);
-    background-position: center right;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
 }
 
 #div-cards6 {
     background-image: url(../imagens/img09.jpg);
-    background-position: center ;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
 }
 
 #div-cards7 {
     background-image: url(../imagens/img10.jpg);
+    height: 600px;
+    background-position: center;
+    background-size: cover;
 }
 
 .div-card-title {

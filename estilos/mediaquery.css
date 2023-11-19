@@ -3,24 +3,31 @@
 @media screen and (max-width: 639px) {
     #div-cards1 {
         background-size: cover;
+        height: 500px;
     }
     #div-cards2 {
         background-size: cover;
+        height: 500px;
     }
     #div-cards3 {
         background-size: cover;
+        height: 500px;
     }
     #div-cards4 {
         background-size: cover;
+        height: 500px;
     }
     #div-cards5 {
         background-size: cover;
+        height: 500px;
     }
     #div-cards6 {
         background-size: cover;
+        height: 500px;
     }
     #div-cards7 {
         background-size: cover;
+        height: 500px;
     }
 }
 
