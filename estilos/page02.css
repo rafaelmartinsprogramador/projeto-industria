@@ -1,4 +1,7 @@
  @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@500&display=swap');
  
  /* SOBRE NÓS PAGE 02 */
  :root {
@@ -65,9 +68,9 @@
         }
 
         footer {
-    width: 100vw;
-    color: var(--color-neutral-40);
-    font-family: 'Inter', sans-serif;
+            width: 100vw;
+            color: var(--color-neutral-40);
+            font-family: 'Inter', sans-serif;
     
 }
 

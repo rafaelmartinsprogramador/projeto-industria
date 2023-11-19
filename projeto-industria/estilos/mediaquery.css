@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 639px) {
+    #div-cards1 {
+        background-size: cover;
+    }
+    #div-cards2 {
+        background-size: cover;
+    }
+    #div-cards3 {
+        background-size: cover;
+    }
+    #div-cards4 {
+        background-size: cover;
+    }
+    #div-cards5 {
+        background-size: cover;
+    }
+    #div-cards6 {
+        background-size: cover;
+    }
+    #div-cards7 {
+        background-size: cover;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .carousel-item { 
+        height: 350px;
+    }
+    textarea {
+        height: 150px;
+    }
+    #colunatext {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    .carousel-item { 
+        height: 370px;
+        overflow-y: hidden;
+    }
+
+    #div-cards1 {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #div-cards2 {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #div-cards3{
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #div-cards4{
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #div-cards5{
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #div-cards6{
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #div-cards7 {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+
+@media screen and (min-width: 796px) {
+    .div-cards {
+        height: 350px;
+    }
+    .loc > iframe {
+        height: 500px;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .div-cards {
+        height: 400px;
+    }
+}
+
+@media screen and (min-width: 1026px) {
+    .carousel-item { 
+        height: 450px;
+    }
+    .div-cards {
+        height: 550px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .div-cards {
+        height: 450px;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .div-cards {
+        height: 650px;
+    }
+    .loc > iframe {
+        height: 700px;
+    }
+}
+
+@media screen and (min-width: 1528px) and (max-width: 1920px) {
+    .carousel-item { 
+        height: 650px;
+    }
+    .card {
+        width: 800px;
+        height: 500px;
+        margin: auto;
+        overflow: hidden;
+    }
+    .card-body {
+        overflow: hidden;
+    }
+
+    .div-cards {
+        height: 700px;
+    }
+    .div-card-title {
+        font-size: 30px;
+    }
+}
